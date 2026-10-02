@@ -1,0 +1,73 @@
+package(default_visibility = ["//visibility:public"])
+
+cc_binary(
+  name = "LinkedList",
+  srcs = [
+          "LinkedList.h",
+          "LinkedList.cpp",
+         ],
+)
+
+cc_binary(
+  name = "BinarySearchTree",
+  srcs = [
+          "BinarySearchTree.h",
+          "BinarySearchTree.cpp",
+         ],
+)
+
+cc_binary(
+  name = "DoubleLinkedList",
+  srcs = [
+          "DoubleLinkedList.h",
+          "DoubleLinkedList.cpp",
+         ],
+)
+
+cc_binary(
+  name = "HashTable",
+  srcs = [
+          "HashTable.h",
+          "HashTable.cpp",
+         ],
+)
+
+cc_binary(
+  name = "HashTablev2",
+  srcs = [
+          "HashTablev2.h",
+          "HashTablev2.cpp",
+         ],
+)
+
+cc_binary(
+  name = "MinHeap",
+  srcs = [
+          "MinHeap.h",
+          "MinHeap.cpp",
+         ],
+)
+
+cc_binary(
+  name = "MaxHeap",
+  srcs = [
+          "MaxHeap.h",
+          "MaxHeap.cpp",
+         ],
+)
+
+cc_binary(
+  name = "SimpleGraph",
+  srcs = [
+          "SimpleGraph.h",
+          "SimpleGraph.cpp",
+         ],
+)
+
+cc_binary(
+  name = "WeightedGraph",
+  srcs = [
+          "WeightedGraph.h",
+          "WeightedGraph.cpp",
+         ],
+)
